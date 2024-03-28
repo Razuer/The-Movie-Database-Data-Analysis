@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "projektmsid"
+version = "0.1.0"
+description = "Projekt zaliczeniowy na laboratorium z MSiD"
+authors = ["Adam Mikołajczyk"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+numpy = "^1.24.3"
+jupyter = "^1.0.0"
+pandas = "^2.0.2"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+sklearn = "^0.0.post5"
+
+
+[tool.poetry.group.dev.dependencies]
+pep8 = "^1.7.1"
+pylint = "^2.17.4"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
